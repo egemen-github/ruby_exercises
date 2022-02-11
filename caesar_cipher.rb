@@ -19,7 +19,6 @@ def shift(index, num)
     # If non of the coditionals are ture it means we can safely retrun the shift value here.
     else
         shift
-
     end
 end
 
@@ -60,7 +59,6 @@ def caesar_cipher(text, num)
                 #If it is not a letter (e.g., !, ?) just push it into the array_of_letters.
                 array_of_letters.push(letter)
             end
-
         end
 
         # Push each word into the array_of_words.
@@ -76,6 +74,5 @@ def caesar_cipher(text, num)
     # Grand Finale
     p final_output
 end
-
 
 caesar_cipher("N mtuj dtz qnpji ny!", -5)
