@@ -26,7 +26,7 @@ def bubble_sort(array)
 end
 
 
+# To compare words, just alter line 18 like this: a.length > b.length
 
 
-
-bubble_sort([4,3,78,2,0,2])
+bubble_sort(["hello","my name is","ola","hey man!","that is so cool",""])
